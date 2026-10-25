@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": false,
+    "allowJs": true,
+    "checkJs": false,
+    "noImplicitAny": false
+  },
+  "include": ["App.tsx", "index.ts", "src/**/*"]
+}
